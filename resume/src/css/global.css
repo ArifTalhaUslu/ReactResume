@@ -1,0 +1,29 @@
+.sctn{
+    padding: 10px;
+    margin: 10px;
+}
+
+.sctnhdr{
+    color:white;
+    text-align: center;
+}
+
+.sctnText{
+    color:white;
+    text-align: center;
+}
+
+.lstDivider{
+    align-items: center;
+    color: white;
+}
+
+.sctnDivider{
+    color: white;
+}
+.sctnImage{
+    max-height: 300px;
+}
+hr{
+    background-color:white;
+}
