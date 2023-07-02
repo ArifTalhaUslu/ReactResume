@@ -5,17 +5,15 @@ import Sctn from "./components/Sctn/Sctn";
 import SctnLst from "./components/Sctn/SctnLst";
 import SctnPrgrs from "./components/Sctn/SctnPrgrs";
 import Footr from "./components/shared/Footr";
-
-//import axios from "axios";
-import data from "./DataResume.json";
+import axios from "axios";
 
 export default function App() {
-  // const [data, setDta] = useState(null);
+  const [data, setDta] = useState(null);
 
-  // axios
-  //   .get("https://ariftalhauslu.github.io/DataResume.json")
-  //   .then((res) => setDta(res.data))
-  //   .catch((err) => console.log(err));
+  axios
+    .get("https://ariftalhauslu.github.io/DataResume.json")
+    .then((res) => setDta(res.data))
+    .catch((err) => console.log(err));
 
   return (
     <div>
