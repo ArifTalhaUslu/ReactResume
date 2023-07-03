@@ -14,11 +14,11 @@ export default function SctnPrgrs(props) {
           props.prgrsList.map((item) => {
             return (
               <>
-                <div className="row" style={{alignItems:"center", textAlign:"center", padding:"10px", paddingRight:"7%"}}>
-                  <div className="col-2">
+                <div className="row" style={{alignItems:"center", textAlign:"center", padding:"10px"}}>
+                  <div className="col-12">
                     <h4>{item.prgrsName}</h4>
                   </div>
-                  <div className="col-10">
+                  <div className="col-12">
                     <div className="progress">
                       <div
                         className="progress-bar"
